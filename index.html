@@ -11,13 +11,15 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<div class="triangle-topleft"></div>
 	<div class="resume-wrap">
 		<div class="triangle-topright"></div>
-		<header class="flex-content">
+		<header class="header-grid">
 			<div class="title-name">
 				<h1>Kostiantyn Molchanov</h1>
-				<span class="f-dev">Backend developer</span>
+				<span class="f-dev">Go Software Engineer</span>
 			</div>
+			
 			<img class="avatar" src="avatar.jpg" alt="avatar">
 		</header>
 		<div class="top-line"></div>
@@ -36,7 +38,7 @@
 		  			<p>+33616767743</p>
 		  			<h4>Email</h4>
 		  			<a href="mailto:kostiantyn.molchanov@gmail.com" rel="author" >
-								<span>kostiantyn.molchanov</span>
+								<span>kostiantyn.molchanov@gmail.com</span>
 						</a>
 		  		</div>
 	  		</div>
@@ -67,8 +69,86 @@
 			<div class="vertical-line"></div>
 
 	  	<div class="main-content">
-	  		<div class="profile">
-	  			<h3>Profile</h3>
+
+				<div>
+	  			<h3>Education</h3>
+	  			<div class="experience content education-grid-container">
+	  				<div class="experience-date">
+	  					2016 - 2018  
+	  				</div>
+	  				<div>
+	  					<p>
+	  						Master’s degree "Computer Science & Data Science for Management", Lumière University Lyon 2 (France) 
+	  					</p>
+	  				</div>
+	  				<div class="experience-date">
+	  					2014 - 2016 
+	  				</div>
+	  				<div>
+	  					<p>
+	  						Bachelor’s degree "Computer Science", Kharkiv National University of Economics (Ukraine) 
+	  					</p>
+	  				</div>
+	  			</div>
+	  		</div>
+
+
+
+	  		<div class="top-line-content"></div>
+
+	  		<div>
+	  			<h3>Experience</h3>
+	  			<div class="experience content experience-grid-container">
+	  				<div class="experience-date">
+	  					Feb 2018 – Sept 2018 
+	  				</div>
+	  				<div>
+	  					<p>
+	  						<b><em>Company:</em></b> Nokia – France <br/>
+	  						<b><em>Position:</em></b> Dev/DevOps Intern <br/>
+								<b><em>Subject:</em></b> Microservice Authoring in SaaS: Creation and deployment of applications/microservices online.<br/> 
+								<b><em>Instruments and technologies:</em></b> Go, REST, Eclipse Che, Docker, Kubernetes, Helm.	
+	  					</p>
+	  				</div>
+	  				<div class="experience-date">
+	  					Aug 2017 – Jan 2018
+	  				</div>
+	  				<div>
+	  					<p>
+		  					<b><em>Company:</em></b> QArea – Ukraine  <br/>
+		  					<b><em>Position:</em></b> Go Software Engineer <br/>
+								<b><em>Responsibilities:</em></b> Implemeon and maintenance of microservices, their communication between each other (API) and with database – https://qarea.com/projects/timeguard <br/>
+								<b><em>Instruments and technologies:</em></b> Go, microservices, RPC, MySQL, NATS, Jenkins 
+	  					</p>
+	  				</div>
+	  				<div class="experience-date">
+	  				Apr 2017 – Jul 2017 
+	  					</div>
+	  				<div>
+	  					<p>
+		  					<b><em>Company:</em></b> SoftServe – Ukraine<br/>
+		  					<b><em>Position:</em></b> Go Software Engineer + DevOps Engineer<br/>
+								<b><em>Instruments and technologies:</em></b> Go, Gorilla, Redis, bash, Docker, Jenkins, WebSockets 
+							</p>
+						</div>
+	  			</div>
+	  		</div>
+
+				<div class="top-line-content"></div>
+
+	  		<div>
+	  			<h3>Languages</h3> 	
+	  			<div class="language content lang-grid-container">
+	  				<div><b>German</b> <p>(elementary proficiency)</p></div>
+	  				<div><b>French, English</b> <p>(full professional proficiency)</p></div>
+	  				<div><b>Ukrainian, Russian</b> <p>(bilingual proficiency)</p></div>
+	  			</div>		
+	  		</div>
+
+				<div class="top-line-content"></div>
+
+				<div class="profile">
+	  			<h3>Pet project</h3>
 	  			<div class="">
 	  				<h5>Project description:</h5>
 	  				<p>Smart Home is an abstraction over the chain of devices and the control center. Each device communicates with the center via grpc and obtains a new configuration using NATS. The center stores device’s configuration and data in the database. Device’s state can be monitored and changed via a browser. Data broadcast from the device is available through the WebSocket connection. </p>
@@ -86,80 +166,6 @@
 	  		<div class="top-line-content"></div>
 
 	  		<div>
-	  			<h3>Experience</h3>
-	  			<div class="experience content experience-grid-container">
-	  				<div class="experience-date">
-	  					Feb 2018 – Sept 2018 
-	  				</div>
-	  				<div>
-	  					<p>
-	  						<b><em>Company:</em></b><br/> Nokia – France; Dev/DevOps Intern <br/>
-								<b><em>Subject:</em></b><br/> Microservice Authoring in SaaS: Creation and deployment of applications/microservices online.<br/> 
-								<b><em>Instruments and technologies:</em></b><br/> Go, REST, Eclipse Che, Docker, Kubernetes, Helm.	
-	  					</p>
-	  				</div>
-	  				<div class="experience-date">
-	  					Aug 2017 – Jan 2018
-	  				</div>
-	  				<div>
-	  					<p>
-		  					<b><em>Company:</em></b><br/> QArea – Ukraine; Go Software Engineer  <br/>
-								<b><em>Responsibilities:</em></b><br/> Implementation and maintenance of microservices, their communication between each other (API) and with database – https://qarea.com/projects/timeguard <br/>
-								<b><em>Instruments and technologies:</em></b><br/> Go, microservices, RPC, MySQL, NATS, Jenkins 
-	  					</p>
-	  				</div>
-	  				<div class="experience-date">
-	  				Apr 2017 – Jul 2017 
-	  					</div>
-	  				<div>
-	  					<p>
-		  					<b><em>Company:</em></b><br/> SoftServe – Ukraine; Go Software Engineer + DevOps Engineer <br/>
-								<b><em>Instruments and technologies:</em></b><br/> Go, Gorilla, Redis, bash, Docker, Jenkins, WebSockets 
-							</p>
-						</div>
-	  			</div>
-	  		</div>
-
-	  		<div class="top-line-content"></div>
-
-	  		<div>
-	  			<h3>Education</h3>
-	  			<div class="experience content education-grid-container">
-	  				<div class="experience-date">
-	  					2016 - 2018  
-	  				</div>
-	  				<div>
-	  					<p>
-	  						<b><em>Company:</em></b><br/> Nokia – France; Dev/DevOps Intern <br/>
-								<b><em>Subject:</em></b><br/> Microservice Authoring in SaaS: Creation and deployment of applications/microservices online.<br/> 
-								<b><em>Instruments and technologies:</em></b><br/> Go, REST, Eclipse Che, Docker, Kubernetes, Helm.	
-	  					</p>
-	  				</div>
-	  				<div class="experience-date">
-	  					2014 - 2016 
-	  				</div>
-	  				<div>
-	  					<p>
-	  						Bachelor’s degree "Computer Science", Kharkiv National University of Economics (Ukraine) 
-	  					</p>
-	  				</div>
-	  			</div>
-	  		</div>
-
-				<div class="top-line-content"></div>
-
-	  		<div>
-	  			<h3>Languages</h3> 	
-	  			<div class="language content lang-grid-container">
-	  				<div><b>German</b> <p>(elementary proficiency)</p></div>
-	  				<div><b>French, English</b> <p>(full professional proficiency)</p></div>
-	  				<div><b>Ukrainian, Russian</b> <p>(bilingual proficiency)</p></div>
-	  			</div>		
-	  		</div>
-
-				<div class="top-line-content"></div>
-
-	  		<div>
 	  			<h3>Social</h3> 	
 	  			<div class="contact social-grid-container">
 	  				
@@ -173,7 +179,7 @@
 	  				</div>
 	  				<div>
 	  					<i class="fab fa-github-square"></i>
-	  					<a href="https://github.com/kostiamol" rel="author">github.com/kostiamo</a>
+	  					<a href="https://github.com/kostiamol" rel="author">github.com/kostiamol</a>
 	  				</div>
 	  			</div>		
 	  		</div>

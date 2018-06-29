@@ -10,17 +10,17 @@ html {
 body {
   font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.5;
-  background: #F7F7F7;
+  background: #91919147;
   color: #0e0e0e;
   margin: 0;
 }
 
 p{
-	font-size: 15px;
+	font-size: 14px;
 }
 
 a{
-	text-decoration: none;
+	
 	color: #1c1c1a;
 	font-size: 14px;
 }
@@ -35,7 +35,6 @@ h1{
 h3{
 	text-transform: uppercase;
 	font-size: 18px;
-	
 	display:inline-block;
   position:relative;
 }
@@ -70,22 +69,22 @@ h5{
 
 .avatar {
 	margin-right: 20px;
-	width: 20%;
-	height: 30%;
-	
+	height: 110%;
+	border-radius: 50%;
 }
 
-.resume-wrap, header, section {
+.resume-wrap, header {
 	position: relative;
 }
 
 .resume-wrap{
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	max-width: 960px;
 	background: #f8f8f8;
-	margin: 50px auto 0;
+	margin: 100px auto;
 	padding: 50px;
 	box-sizing: border-box;
+	
 }
 
 .flex-content {
@@ -95,24 +94,28 @@ h5{
 	display: -o-flex;
 	display: flex;
 	justify-content: space-between;
-	
 }
  
 .education-grid-container, 
 .experience-grid-container {
   display: grid;
-  grid-template-columns: 30% auto;
+  grid-template-columns: 25% auto;
 }
 
 .grid-container {
 	display: grid;
-  grid-template-columns: 20% auto 75%;
+  grid-template-columns: 25% auto 70%;
   grid-column-gap: 30px;
 }
 
 .lang-grid-container, .social-grid-container {
 	display: grid;
   grid-template-columns: auto auto auto;
+}
+
+.header-grid {
+	display: grid;
+  grid-template-columns: 75% auto;
 }
 
 .vertical-line {
@@ -122,7 +125,7 @@ h5{
 }
 
 .top-line {
-	width: 600px;
+	width: 70%;
 	height: 1px;
 	background: #ccc;
 }
@@ -137,16 +140,15 @@ h5{
 	margin-top: 35px;
 }
 
-/*.triangle-topright {
+.triangle-topleft {
 	position: absolute;
 	top: 0;
-	right: 0;
+	left: 0;
 	width: 0;
 	height: 0;
-	border-top: 400px solid #1c1c1a; 
-	border-left: 400px solid transparent;
-	
-}*/
+	border-top: 1900px solid #6a6c69; 
+	border-right: 1300px solid transparent;			
+}
 
 .experience-date{
 	font-size: 14px; 
